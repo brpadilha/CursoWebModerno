@@ -1,0 +1,13 @@
+Anotações Curso Web Moderno
+
+##Organização
+A organização no java é feita em blocos onde para abrir um bloco se usa o {
+
+}
+
+Podendo usar um bloco dentro de outro.
+
+##COMENTARIOS DE CÓDIGOS
+Para fazer comentário é só usar //
+se for usar mais de uma linha é só usar /* e fechar com */
+
