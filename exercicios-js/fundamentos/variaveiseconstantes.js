@@ -17,4 +17,3 @@ b = 400
 const c = 5
 //c=50 não vai funcionar
 console.log(c)
-

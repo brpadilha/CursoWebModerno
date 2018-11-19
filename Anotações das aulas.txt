@@ -7,7 +7,14 @@ A organização no java é feita em blocos onde para abrir um bloco se usa o {
 
 Podendo usar um bloco dentro de outro.
 
-##COMENTARIOS DE CÓDIGOS
+##COMENTARIOS DE CÓDIGOS - Aula 13
 Para fazer comentário é só usar //
 se for usar mais de uma linha é só usar /* e fechar com */
+
+##Variáveis e constantes - Aula 14
+Existem as variáveis var e let, sendo que é aconselhado a usar a let, pois ela não é mutável
+e também existem as const
+
+##TRIAGEM FRACA - Aula 15
+
 
