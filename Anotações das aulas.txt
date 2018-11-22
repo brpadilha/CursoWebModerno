@@ -15,6 +15,21 @@ se for usar mais de uma linha é só usar /* e fechar com */
 Existem as variáveis var e let, sendo que é aconselhado a usar a let, pois ela não é mutável
 e também existem as const
 
-##TRIAGEM FRACA - Aula 15
+##FUNÇÃO MATH
+Função math nada mais é do que uma função que ja vem englobado formas matemáticas nela
+como Math.PI que retorna o PI
+Math.pow(valor, numerdoaser elevado) como Math.pow(2,4) = 2⁴
 
+##STRINGS
 
+Para mostrar a letra em tal lugar const.charAt(4)
+Para mostrar em qual indice da frase está a letra
+const.indexOf('letra')
+
+Mostrar o todas as letras menos a primeira e a segunda : const.substring(1) assim podendo fazer com outras, sendo que o 0 é a primeira letra ou indice 0.
+
+Mostrar somente um conjunto de letras de uma constante : const.substring(0 , 3))
+
+Para concatenar: ('palavra'.concat(const).concat("!"))
+
+Para mudar uma letra : .replace
