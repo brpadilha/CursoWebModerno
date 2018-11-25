@@ -11,3 +11,4 @@ console.log(escola.substring(0, 3)) //mostrar entre a primeira e a letra do índ
 console.log('Escola '.concat(escola).concat("!")) //concatena 
 console.log(escola.replace(3, 'e')) //muda a letra no índice 3 pela letra "e"
 console.log('Ana,Maria,Pedro'.split(',')) //faz um array separando pela vírgula
+
