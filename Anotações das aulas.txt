@@ -33,3 +33,6 @@ Mostrar somente um conjunto de letras de uma constante : const.substring(0 , 3))
 Para concatenar: ('palavra'.concat(const).concat("!"))
 
 Para mudar uma letra : .replace
+
+##conceito de nulo e undefined
+
