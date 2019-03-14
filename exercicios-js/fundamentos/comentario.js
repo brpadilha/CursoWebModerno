@@ -6,3 +6,10 @@ em duas
 linhas */
 
 console.log('Linha 2')
+
+/*Comentario
+ *em varias
+ *linhas
+ */
+
+console.log(`Linha 3`)
