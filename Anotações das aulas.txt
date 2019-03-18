@@ -36,3 +36,7 @@ Para mudar uma letra : .replace
 
 ##conceito de nulo e undefined
 
+##CONCEITO CHAMADO HOISTING
+
+No javascript se declarar a variavel depois, ele vai içar para antes
+
