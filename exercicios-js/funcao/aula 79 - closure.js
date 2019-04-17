@@ -15,3 +15,5 @@ function fora(){
 
 const minhaFuncao = fora()
 console.log(minhaFuncao())
+
+
