@@ -2,7 +2,7 @@
 
 console.log(typeof Array, typeof new Array, typeof [])
 
-let aprovados = new Array('Ana','Carlos','Maria') //não muito utilizado
+let aprovados = new Array('Ana', 'Carlos', 'Maria') //não muito utilizado
 
 console.log(aprovados)
 
@@ -16,7 +16,7 @@ aprovados[3] = 'Paulo' // adicionando um elemento ao indice 3
 aprovados.push('Abia') //outra forma de adicionar um elemento em um array
 console.log(aprovados.length)
 
-aprovados[9] = 'Rafael' 
+aprovados[9] = 'Rafael'
 console.log(aprovados.length) //irão existis os outros indices, mas com valores indefinidos
 console.log(aprovados[8] === undefined)
 
@@ -38,14 +38,9 @@ aprovados.splice(1, 2) // aqui vai excluir o primeiro e o segundo
 console.log(aprovados)
 
 aprovados = ['Bia', 'Carlos', 'Ana']
-aprovados.splice(1, 0, 'Elemento1', 'Elemento 2')// adiciona dois elementos
+aprovados.splice(1, 0, 'Elemento1', 'Elemento 2') // adiciona dois elementos
 console.log(aprovados)
 
 aprovados = ['Bia', 'Carlos', 'Ana']
 aprovados.splice(1, 2, 'Elemento1', 'Elemento 2') // exclui os dois ultimos e adiciona dois elementos
 console.log(aprovados)
-
-
-
-
-
