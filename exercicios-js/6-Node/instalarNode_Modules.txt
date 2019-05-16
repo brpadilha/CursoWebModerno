@@ -1,0 +1,5 @@
+NodeModules é um conjunto de arquivos ja do javascript
+
+para instalar
+
+>npm i lodash
