@@ -12,7 +12,7 @@ console.log(pilotos)
 pilotos.unshift('Hamilton') //coloca na primeira posição
 console.log(pilotos)
 
-// splice pode adicionar ou remover
+splice pode adicionar ou remover
 
 //adicionar
 pilotos.splice(2, 0, 'Botas', 'Massa')

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercícios HTML</title>
+</head>
+<body>
+    <h1>Exercícios HTML</h1>
+    <nav>
+        <a href wm-nav="/exercicios-js/8-HTML+CSS/Exercicioshtml/teste.html">00 - Teste</a>
+        <a href wm-nav="/exercicios-js/8-HTML+CSS/Exercicioshtml/temp.html">TEMP</a>
+    </nav>
+    <section id="conteudo"></section>
+    <footer>
+        <br>
+        Curso de Web Moderno
+    </footer>
+    <script> //AJAX
+        document.querySelectorAll("[wm-nav]").forEach(link=>{ //seleciona todos os itens com atributos wm-nav
+            const conteudo = document.getElementById('conteudo') //posta na sessão atributos
+            link.onclick = function(e){
+                e.preventDefault()
+                fetch(link.getAttribute('wm-nav'))
+                    .then(resposta => resposta.text())
+                    .then(html => conteudo.innerHTML = html)
+            }
+        })
+    </script>
+</body>
+</html>
